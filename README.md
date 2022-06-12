@@ -1,5 +1,7 @@
-# stream_matmul_hls
+# Streaming Matrix-Multiplication
 streaming matrix multiplication kernel written in HLS
 
-first build a hls project for weights_gen/src, run csim to generate weights.hpp,
-then build a hls project for matrixmultiply/src
+## Build Process
+- Build a Vivado hls project using source files in weights_gen/src
+- Run csim to generate weights.hpp
+- Build a Vivado hls project using source files in matrixmultiply/src
